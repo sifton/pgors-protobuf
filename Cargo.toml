@@ -1,0 +1,18 @@
+[package]
+name = "pgors-protobuf"
+version = "0.1.0"
+authors = ["Brett Russell <ytotre@gmail.com>"]
+
+description = "Generated Protobuf codec for Pokémon Go."
+
+readme = "README.md"
+keywords = ["pokemon", "go", "protobuf", "types"]
+
+license = "MIT"
+
+[lib]
+name = "pgors_protobuf"
+path = "src/lib.rs"
+
+[dependencies]
+protobuf = "1.0.23"
